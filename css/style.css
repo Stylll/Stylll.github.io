@@ -7,5 +7,34 @@ body {
 main {
   flex: 1 0 auto;
 }
+#intro-container {
+  background-color: #252a30;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-image:
+        linear-gradient(rgba(37, 42, 48, 0.7), rgba(37, 42, 48, 0.7)),
+        url("../assets/bg-image.jpg");
+}
+.intro-overlay {
+  background-color: #252a30;
+  opacity: 0.7;
+}
+.full-height{
+  min-height: 100vh;
+}
+.flex-display {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.flex {
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+.main-container{
+  height: 100%;
+}
 
 /** Containers End **/
