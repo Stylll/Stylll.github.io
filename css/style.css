@@ -39,6 +39,10 @@ main {
 .typed-cursor{
   animation: blink 0.7s infinite;
 }
+.intro-text-container {
+  min-height: 30vh;
+}
+
 /*Custom cursor animation*/
 @keyframes blink{
   0% { opacity:1; }
