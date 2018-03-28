@@ -4,8 +4,8 @@ function to handle auto typing of the intro text
 var typed = new Typed(".intro-text", {
   strings: ["",
   "I design and develop web applications.",
-  "I design and develop corporate websites",
-  "I design and develop ERP applications",
+  "I design and develop corporate websites.",
+  "I design and develop ERP applications.",
   "I also build and structure databases."
   ],
   stringsElement: null,
