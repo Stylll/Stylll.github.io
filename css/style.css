@@ -49,6 +49,14 @@ main {
   height: 100%;
 	background: linear-gradient(rgba(37, 42, 48, 0.7));
 }
+.tools-img {
+  height: 70px !important;
+  width: 70px;
+}
+.tools-text {
+  font-weight: 700;
+  color: #252a30;
+}
 
 /*Custom cursor animation*/
 @keyframes blink{
@@ -66,5 +74,24 @@ main {
   50% { opacity:0; }
   100% { opacity:1; }
 }
-
 /** Containers End **/
+
+/** Colors **/
+.primary-bg-color {
+  background-color: #252a30;
+}
+.secondary-bg-color {
+  background-color: #FED766;
+}
+.alternate-bg-color {
+  background-color: #B87D4B;
+}
+.primary-text-color {
+  color: #252a30;
+}
+.secondary-text-color {
+  color: #FED766;
+}
+.alternate-text-color {
+  color: #B87D4B;
+}
