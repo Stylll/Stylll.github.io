@@ -60,6 +60,10 @@ main {
 #works-section {
   background-color: #E0E0E0;
 }
+.work-img {
+  height: 100%;
+  width: 100%;
+}
 
 /*Custom cursor animation*/
 @keyframes blink{
@@ -97,4 +101,9 @@ main {
 }
 .alternate-text-color {
   color: #B87D4B;
+}
+
+/* Margins & Paddings */
+.padding {
+  padding: 10px;
 }
