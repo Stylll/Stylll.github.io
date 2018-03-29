@@ -57,6 +57,9 @@ main {
   font-weight: 700;
   color: #252a30;
 }
+#works-section {
+  background-color: #E0E0E0;
+}
 
 /*Custom cursor animation*/
 @keyframes blink{
