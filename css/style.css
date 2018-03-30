@@ -64,6 +64,60 @@ main {
   height: 100%;
   width: 100%;
 }
+#contact-section {
+  background-color: #FED766;
+}
+.contact-img-container{
+  height: 230px;
+}
+.contact-text {
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+.contact-img {
+  height: 100%;
+  width: 100%;
+}
+.btn-download {
+  background-color: #252a30;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+/* social icons */
+.s-icon {
+  padding: 10px;
+  border-radius: 50%;
+}
+.s-icon-alt {
+  padding: 10px;
+}
+
+/* Add a hover effect if you want */
+.s-icon:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+.fa-google{
+  background-color: #dd4b39;
+  color: white;
+}
+.fa-linkedin-in {
+  color: #007bb5;
+}
+.fa-instagram {
+  color: #125688;
+}
+.fa-github {
+  background: #333;
+  color: white;
+}
 
 /*Custom cursor animation*/
 @keyframes blink{
@@ -85,13 +139,13 @@ main {
 
 /** Colors **/
 .primary-bg-color {
-  background-color: #252a30;
+  background-color: #252a30 !important;
 }
 .secondary-bg-color {
-  background-color: #FED766;
+  background-color: #FED766 !important;
 }
 .alternate-bg-color {
-  background-color: #B87D4B;
+  background-color: #B87D4B !important;
 }
 .primary-text-color {
   color: #252a30;
