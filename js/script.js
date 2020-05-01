@@ -3,10 +3,13 @@ function to handle auto typing of the intro text
  */
 var typed = new Typed(".intro-text", {
   strings: ["",
-  "I design and develop web applications.",
-  "I design and develop corporate websites.",
-  "I design and develop ERP applications.",
-  "I also build and structure databases."
+  "I'm a fullstack software engineer.",
+  "I enjoy writing and building software products.",
+  "I also love to play the piano :)."
+  // "I design and develop web applications.",
+  // "I design and develop corporate websites.",
+  // "I design and develop ERP applications.",
+  // "I also build and structure databases."
   ],
   stringsElement: null,
   smartBackspace: true, // Default value
@@ -24,4 +27,8 @@ var typed = new Typed(".intro-text", {
   showCursor: true,
   // character for cursor
   cursorChar: "|",
+});
+
+$(document).ready(function(){
+  $('.sidenav').sidenav();
 });
