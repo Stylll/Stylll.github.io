@@ -67,6 +67,34 @@ main {
 .title-text {
   font-family: 'Fjalla One';
 }
+
+.sub-text {
+  color: #4c4b4b;
+}
+
+.about-section {
+  padding: 50px 0 50px 0;
+}
+
+.about-me-avatar {
+  margin-top: 36px;
+}
+
+.about-section .sub-text {
+  font-size: 18px !important;
+}
+
+.about-me-link {
+  color: #252a30;
+  border: solid;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+.about-me-link:hover {
+  background-color: #FED766;
+}
+
 #particles-js {
   position: absolute;
   width: 100%;
@@ -184,4 +212,12 @@ main {
 /* Margins & Paddings */
 .padding {
   padding: 10px;
+}
+
+
+/* medium to large media query */
+@media only screen and (min-width: 600px) {
+  .about-section .sub-text {
+    font-size: 20px !important;
+  }
 }
