@@ -3,7 +3,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  font-family: 'Poppins', 'Open Sans', 'Fjalla One', 'Material Icons', sans-serif;
+  font-family: 'Open Sans', 'Poppins', 'Fjalla One', 'Material Icons', sans-serif;
 }
 main {
   flex: 1 0 auto;
@@ -70,6 +70,7 @@ main {
 
 .sub-text {
   color: #4c4b4b;
+  font-weight: 100;
 }
 
 .about-section {
@@ -93,6 +94,32 @@ main {
 
 .about-me-link:hover {
   background-color: #FED766;
+}
+
+.tools-section {
+  height: 100vh;
+}
+
+.skills-text {
+  font-size: 18px;
+}
+
+.skills-list-item.skills-text {
+  color: #8c8b8b;
+  font-weight: 100;
+}
+
+.skills-text-icon {
+  margin-right: 10px;
+}
+
+ul.skills-list {
+  list-style-type: circle !important;
+  list-style-position: inside;
+}
+
+li.skills-list-item {
+  list-style-type: circle !important;
 }
 
 #particles-js {
