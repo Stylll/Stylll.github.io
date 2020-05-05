@@ -226,8 +226,9 @@ li.skills-list-item {
 
 /* social icons */
 .s-icon {
+  font-size: 32px;
   padding: 10px;
-  border-radius: 50%;
+  margin: 10px;
 }
 .s-icon-alt {
   padding: 10px;
@@ -247,10 +248,14 @@ li.skills-list-item {
   color: white;
 }
 .fa-linkedin-in {
-  color: #007bb5;
+  background-color: #007bb5;
+  color: #fff
 }
 .fa-instagram {
-  color: #125688;
+  color: #fff;
+  background-color: #833AB4;
+  background-image: linear-gradient(to bottom left, #833AB4, #5851DB, 
+  #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
 }
 .fa-github {
   background: #333;
@@ -305,5 +310,12 @@ li.skills-list-item {
 @media only screen and (min-width: 600px) {
   .about-section .sub-text {
     font-size: 20px !important;
+  }
+}
+
+/* small to medium media query */
+@media only screen and (max-width: 600px) {
+  .about-me-title {
+    font-size: 26px !important;
   }
 }
