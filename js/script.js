@@ -30,5 +30,18 @@ var typed = new Typed(".intro-text", {
 });
 
 $(document).ready(function(){
+  // load materialize side nav
   $('.sidenav').sidenav();
+
+  // set smooth scrolling to all sections
+  $('.nav-link').on('click', function(event) {
+    event.preventDefault();
+
+    const hash = this.hash;
+    window.location.hash = hash;
+    const offset = ($(hash).offset().top - 64); // subtracting 64 here because of the sticky navbar
+    $('html').animate({
+      scrollTop: offset
+    }, 50, function() {});
+  });
 });
