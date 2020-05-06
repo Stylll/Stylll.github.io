@@ -1,4 +1,8 @@
 /** Containers Start **/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   min-height: 100vh;
@@ -8,7 +12,7 @@ body {
 main {
   flex: 1 0 auto;
 }
-#intro-container {
+.intro-container {
   background-color: #252a30;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,6 +70,19 @@ main {
 
 .title-text {
   font-family: 'Fjalla One';
+}
+
+.sidenav-close-icon {
+  float: right !important;
+  margin: 0 !important;
+}
+
+.sidenav-close-icon-container {
+  padding: 0 20px 0 20px !important;
+}
+
+.sidenav .divider {
+  margin: 0 !important;
 }
 
 .sub-text {
