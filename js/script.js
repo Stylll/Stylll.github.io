@@ -45,3 +45,9 @@ $(document).ready(function(){
     }, 50, function() {});
   });
 });
+
+//Init AOS animation library
+AOS.init({
+  disable: 'mobile',
+  once: true,
+});
