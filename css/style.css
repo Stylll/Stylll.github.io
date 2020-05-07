@@ -1,14 +1,18 @@
 /** Containers Start **/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  font-family: 'Fjalla One', 'Material Icons', sans-serif;
+  font-family: 'Open Sans', 'Poppins', 'Fjalla One', 'Material Icons', sans-serif;
 }
 main {
   flex: 1 0 auto;
 }
-#intro-container {
+.intro-container {
   background-color: #252a30;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,6 +26,26 @@ main {
   background-color: #252a30;
   opacity: 0.7;
 }
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  background-color: #2b2e33;
+}
+
+.brand-logo {
+  font-family: 'Satisfy', 'Fjalla One', sans-serif;
+  font-size: 24px !important;
+}
+
+.expand-more {
+  cursor: pointer;
+}
+
 .full-height{
   min-height: 100vh;
 }
@@ -43,6 +67,137 @@ main {
 .intro-text-container {
   min-height: 30vh;
 }
+
+.title-text {
+  font-family: 'Fjalla One';
+}
+
+.sidenav-close-icon {
+  float: right !important;
+  margin: 0 !important;
+}
+
+.sidenav-close-icon-container {
+  padding: 0 20px 0 20px !important;
+}
+
+.sidenav .divider {
+  margin: 0 !important;
+}
+
+.sub-text {
+  color: #4c4b4b;
+  font-weight: 100;
+}
+
+.about-section {
+  padding: 50px 0 50px 0;
+}
+
+.about-me-avatar {
+  margin-top: 36px;
+}
+
+.about-section .sub-text {
+  font-size: 18px !important;
+}
+
+.about-me-link {
+  color: #252a30;
+  border: solid;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+.about-me-link:hover {
+  background-color: #FED766;
+}
+
+.tools-section {
+  height: 100vh;
+}
+
+.skills-text {
+  font-size: 18px;
+}
+
+.skills-list-item.skills-text {
+  color: #8c8b8b;
+  font-weight: 100;
+}
+
+.skills-text-icon {
+  margin-right: 10px;
+}
+
+ul.skills-list {
+  list-style-type: circle !important;
+  list-style-position: inside;
+}
+
+li.skills-list-item {
+  list-style-type: circle !important;
+}
+
+.project-image {
+  height: 400px;
+  width: 400px;
+  background-color: #252a30;
+}
+
+.upshot-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  background-image:
+        linear-gradient(rgba(37, 42, 48, 0.6), rgba(37, 42, 48, 0.6)),
+        url("../assets/upshot.png");
+}
+
+.bookameal-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  background-image:
+        linear-gradient(rgba(37, 42, 48, 0.6), rgba(37, 42, 48, 0.6)),
+        url("../assets/book-a-meal-image.png");
+}
+
+.gomigrate-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image:
+        linear-gradient(rgba(37, 42, 48, 0.6), rgba(37, 42, 48, 0.6)),
+        url("../assets/gomigrate-image.png");
+}
+
+.screwup-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image:
+        linear-gradient(rgba(37, 42, 48, 0.6), rgba(37, 42, 48, 0.6)),
+        url("../assets/screwup.png");
+}
+
+.project-title {
+  font-size: 24px !important;
+}
+
+.project-link {
+  color: #252a30 !important;
+}
+
+.project-link:hover {
+  color: #FED766 !important;
+  cursor: pointer;
+}
+
+.project-chip {
+  background-color: #FED766 !important;
+}
+
 #particles-js {
   position: absolute;
   width: 100%;
@@ -88,8 +243,9 @@ main {
 
 /* social icons */
 .s-icon {
+  font-size: 32px;
   padding: 10px;
-  border-radius: 50%;
+  margin: 10px;
 }
 .s-icon-alt {
   padding: 10px;
@@ -109,10 +265,14 @@ main {
   color: white;
 }
 .fa-linkedin-in {
-  color: #007bb5;
+  background-color: #007bb5;
+  color: #fff
 }
 .fa-instagram {
-  color: #125688;
+  color: #fff;
+  background-color: #833AB4;
+  background-image: linear-gradient(to bottom left, #833AB4, #5851DB, 
+  #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
 }
 .fa-github {
   background: #333;
@@ -160,4 +320,19 @@ main {
 /* Margins & Paddings */
 .padding {
   padding: 10px;
+}
+
+
+/* medium to large media query */
+@media only screen and (min-width: 600px) {
+  .about-section .sub-text {
+    font-size: 20px !important;
+  }
+}
+
+/* small to medium media query */
+@media only screen and (max-width: 600px) {
+  .about-me-title {
+    font-size: 26px !important;
+  }
 }
